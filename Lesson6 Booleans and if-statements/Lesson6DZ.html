@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lesson6_DZ</title>
+  </head>
+
+  <body>
+    
+   <script>
+    /*
+    const currentDate = new Date();
+    const hours = currentDate.getHours();
+    const name = 'Leonid';
+
+    if (hours >= 6 && hours <= 12) {
+      console.log(`Good morning! ${name}`);
+    } else if (hours >= 13 && hours <= 17) {
+      console.log(`Good afternoon! ${name}`); 
+    } else if (hours >= 18 && hours <= 23){
+      console.log(`Good evening! ${name}`);
+    } else {
+      console.log(`Good night! ${name}`);
+    }
+    
+
+    const age = 3;
+    const isHoliday = true;
+    const message = (age <= 6 || age >= 65) && !isHoliday ? 'Discount':'No discount'; 
+
+    console.log(message);
+   */
+
+    const myGuess = 'head';
+    const randomNumber = Math.random();
+    const message = randomNumber < 0.5 ? 'head':'tails';
+    console.log(message);
+    const result = message===myGuess ? 'You win!':'You lose!'; 
+    console.log(result);
+
+   </script>
+  </body>
+</html>
