@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт Evil corporation</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <div>
+          <h1>Сайт сотрудников</h1>
+        </div>
+        <div>
+          <nav>
+            <ul>
+              <li><a href="FirstProject.html">Список сотрудников</a></li>
+              <li><a href="blog.html">Блог</a></li>
+              <li><a href="about.html">О нас</a></li>
+              <li><a href="Contact.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </section>
+    <section>
+      <article>
+        <div>
+          <h3>Сотрудники</h3>
+        </div>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Должность</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Ivan</td>
+                <td>20</td>
+                <td>Progger</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Katya</td>
+                <td>22</td>
+                <td>Disigner</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Liza</td>
+                <td>24</td>
+                <td>Frontend</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+    <section>
+      <div>
+        <div>
+          <h3>Добавление сотрудника</h3>
+        </div>
+        <form action="#" method="POST">
+          <div>
+            <input type="text" name="name" placeholder="name" />
+          </div>
+          <div>
+            <input type="number" name="age" placeholder="age" />
+          </div>
+          <div>
+            <select name="JobTitle" id="JobTitle">
+              <option disabled selected>Выберите Должность</option>
+              <option value="1">Progger</option>
+              <option value="2">Disigner</option>
+              <option value="3">Frontend</option>
+              <option value="4">Backend</option>
+            </select>
+          </div>
+          <div>
+            <input type="submit" value="add" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <hr />
+      <div>
+        <h3>Add post</h3>
+      </div>
+      <div>
+        <form action="#" method="POST">
+          <div>
+            <input type="text" name="title" />
+          </div>
+          <div>
+            <input type="file" name="image" />
+          </div>
+          <div>
+            <input type="text" name="description" />
+          </div>
+          <div>
+            <textarea
+              name="content"
+              placeholder="Your content"
+              id="txtarea"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="add" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
