@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evil Corp</title>
+    <style>
+      img {
+        width: 250px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>Evil corporation.</h1>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <a href="mainPage.html">Главная</a>
+            </li>
+            <li>
+              <a href="lenta.html">Лента</a>
+            </li>
+            <li>
+              <a href="contacts.html">Контакты</a>
+            </li>
+            <li>
+              <a href="about.html">О нас</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h2>Список сотрудников</h2>
+      </div>
+
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>LastName</th>
+              <th>Age</th>
+              <th>Exp</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Leonid</td>
+              <td>Panteleev</td>
+              <td>25</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Maxim</td>
+              <td>Egorov</td>
+              <td>21</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Egor</td>
+              <td>Hydyakov</td>
+              <td>22</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <hr />
+    <section>
+      <div>
+        <form action="#" method="post">
+          <div><input type="text" placeholder="Name" /></div>
+          <div><input type="text" placeholder="LastName" /></div>
+          <div><input type="number" placeholder="Age" /></div>
+          <div><input type="number" placeholder="Years of experience" /></div>
+          <div>
+            <select name="List of psyho" id="ListPsyho">
+              <option disabled selected value="psyho1">
+                Выберите психотип
+              </option>
+              <option value="psyho2">Долбоеб</option>
+              <option value="psyho3">Псих</option>
+              <option value="psyho4">Ебарь</option>
+              <option value="psyho5">Тварь</option>
+            </select>
+          </div>
+          <div><input type="submit" value="Add" /></div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <article>
+        <div><h2>Zagolovok posta</h2></div>
+        <div><img src="1.jpg" alt="" /></div>
+        <div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+            aliquid, quae quo assumenda hic veritatis itaque ut recusandae
+            minima esse tempora harum, eligendi quam commodi. Officia ut quod
+            eos harum!
+          </p>
+        </div>
+        <div><a href="singlePost.html">read more...</a></div>
+      </article>
+      <hr />
+      <article>
+        <div><h2>Zagolovok posta</h2></div>
+        <div><img src="2.jpg" alt="" /></div>
+        <div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+            aliquid, quae quo assumenda hic veritatis itaque ut recusandae
+            minima esse tempora harum, eligendi quam commodi. Officia ut quod
+            eos harum!
+          </p>
+        </div>
+        <div><a href="singlePost.html">read more...</a></div>
+      </article>
+    </section>
+
+    <section>
+      <div><h2>Добавить пост</h2></div>
+      <div>
+        <form action="#" method="POST">
+          <div><input type="file" placeholder="image" /></div>
+          <div><textarea name="TextPost" id="PostTxt" placeholder="Write text your post"></textarea></div>  
+          <div><input type="submit" value="post" /></div>
+        </form>
+      </div>
+    </section>
+
+    <hr />
+    <footer>
+      <div><h2>Наши контакты</h2></div>
+      <div><span>Адрес: г. Москва ул. Полковая д.3 к.4 </span></div>
+      <div>
+        <span>Телефоны для связи: </span>
+        <br />
+
+        <span>+7 903 736 52 52</span>
+        <br />
+        <span>+7 903 733 22 88</span>
+      </div>
+      <div><a href="contacts.html">Подробнее...</a></div>
+    </footer>
+  </body>
+</html>
